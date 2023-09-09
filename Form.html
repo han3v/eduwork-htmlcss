@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form submit</title>
+    <style type="text/css" media="all">
+      body {
+        background: rgba(255, 255, 255, 0.5) url('https://glints.com/id/lowongan/wp-content/uploads/2022/04/pexels-thirdman-7652040.jpg') no-repeat  7 50%;
+        background-size: cover;
+      }
+      .form-submit {
+        display: flex;
+        justify-content: center;
+        margin: 15rem auto;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="form-submit">
+    <fieldset>
+        <legend>Login</legend>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
+        </p>
+        <p>
+          <label for="usia :">usia :</label>
+          <select name="usia" id="usia">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+        </fieldset>
+    </form>
+   </div>
+  </body>
+</html>
